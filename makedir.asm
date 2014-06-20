@@ -1,3 +1,6 @@
+; Author: Osanda Malith Jayathissa (@OsandaMalith)
+; This makes the syscall 39 and creates a new directory by the 'Osanda' with the chmod 755
+
 section .text
         global _start
 
