@@ -1,5 +1,5 @@
 ; Author: Osanda Malith Jayathissa (@OsandaMalith)
-; This is XOR decoder stub
+; This is the XOR decoder stub
 
 section .text
   global _start		
