@@ -6,7 +6,7 @@ section .text
 
 _start:
 
-                  jmp short call_shellcode
+                  jmp short call_dir
 
 shellcode:
                   xor    eax, eax
@@ -23,6 +23,6 @@ shellcode:
                   mov    al, 0x1
                   xor    ebx,ebx
                   int    0x80
-call_shellcode:
+call_dir:
          call   shellcode
         msg: db 0x4f,0x73,0x61,0x6e,0x64,0x61
