@@ -34,12 +34,12 @@ char *shellcode =  "\x01\x60\x8f\xe2"
         "\x01\x20"
         "\x04\x27"
         "\x01\xdf"        
-		    "\x24\x1b"
+	"\x24\x1b"
         "\x20\x1c"
         "\x01\x27"
-		    "\x01\xdf"
-		    "\x4f\x73\x61\x6e"
-		    "\x64\x61\x0a";
+	"\x01\xdf"
+	"\x4f\x73\x61\x6e"
+	"\x64\x61\x0a";
 
 int main(void) {
     fprintf(stdout,"Length: %d\n",strlen(shellcode));
