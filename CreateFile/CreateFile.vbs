@@ -1,6 +1,7 @@
 ' Author : Osanda Malith Jayathissa (@OsandaMalith)
 ' Title: Shellcode to request a non-existing network path
 ' Websie: https://osandamalith
+' This is word/excel macro. This can be used in vb6 applications as well
 
 #If Vba7 Then
 	Private Declare PtrSafe Function CreateThread Lib "kernel32" ( _
