@@ -1,6 +1,6 @@
 ' Author : Osanda Malith Jayathissa (@OsandaMalith)
 ' Title: Shellcode to request a non-existing network path
-' Websie: https://osandamalith
+' Website: https://osandamalith
 ' This is a word/excel macro. This can be used in vb6 applications as well
 
 #If Vba7 Then
