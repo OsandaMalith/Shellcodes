@@ -1,6 +1,7 @@
 ' Author : Osanda Malith Jayathissa (@OsandaMalith)
 ' Title: Shellcode to request a non-existing network path
 ' Website: https://osandamalith
+' Shellcode : https://packetstormsecurity.com/files/141707/CreateFile-Shellcode.html
 ' This is a word/excel macro. This can be used in vb6 applications as well
 
 #If Vba7 Then
