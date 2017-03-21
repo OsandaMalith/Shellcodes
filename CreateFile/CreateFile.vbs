@@ -1,6 +1,7 @@
 ' Author : Osanda Malith Jayathissa (@OsandaMalith)
 ' Title: Shellcode to request a non-existing network path
 ' Website: https://osandamalith
+' Shellcode : https://packetstormsecurity.com/files/141707/CreateFile-Shellcode.html
 ' Based on subTee's JS: https://gist.github.com/subTee/1a6c96df38b9506506f1de72573ceb04
 
 Set DX = CreateObject("DynamicWrapperX")
